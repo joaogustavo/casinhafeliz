@@ -1,0 +1,584 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*reset da modelo*/
+.titulos, .conteudos-navegacao {
+	display: none;
+	visibility: hidden;
+}
+.corpo, .conteudos {
+	max-width: 2000px;
+	padding: 0;
+}
+/* banners */
+.banners {
+	display: block;
+}
+.banners-sombra {
+	background: url(../img/banners-sombra-fundo.png) no-repeat center top;
+	display: block;
+	height: 100rem;
+	margin: 0 auto;
+	max-height: 54px;
+	max-width: 1387px;
+	width: 100%;
+}
+/* quem somos */
+.quemsomos-container-geral {
+	background: url(../img/home-quemsomos-fundo.jpg) no-repeat center top #ffffff;
+}
+.quemsomos-container {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0 2%;
+	width: 100%;
+}
+.quemsomos-chamada-container {
+	margin: 0 auto;
+	margin-bottom: 40px;
+	max-width: 1113px;
+	width: 100%;
+}
+.quemsomos-chamada-ilustracao {
+	background: url(../img/home-quemsomos-ilustra.png) no-repeat left top;
+	display: inline-block;
+	float: left;
+	height: 100rem;
+	max-height: 186px;
+	max-width: 254px;
+	width: 100%;
+}
+.quemsomos-chamada {
+	background: url(../img/home-quemsomos-papel-fundo.svg) no-repeat left top;
+	display: inline-block;
+	font-family: 'fishfingersregular';
+	font-size: 3.5rem;
+	font-weight: bold;
+	height: 100rem;
+	letter-spacing: .3rem;
+	line-height: normal;
+	margin-top: 23px;
+	max-height: 208px;
+	max-width: 843px;
+	padding-top: 37px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.quemsomos-chamada-ilus-esq {
+	display: inline-block;
+	float: left;
+	height: 207px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 109px;
+}
+.quemsomos-chamada-ilus-esq:before {
+	background: url(../img/home-quemsomos-ilustra-a.png) no-repeat left top;
+	content: "";
+	display: block;
+	height: 61px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 61px;
+}
+.quemsomos-chamada-ilus-esq:after {
+	background: url(../img/home-quemsomos-ilustra-i.png) no-repeat left top;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 55px;
+	position: absolute;
+	right: 0;
+	width: 37px;
+}
+.quemsomos-chamada-ilus-dir {
+	display: inline-block;
+	float: right;
+	height: 166px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 52px;
+}
+.quemsomos-chamada-ilus-dir:before {
+	background: url(../img/home-quemsomos-ilustra-c.png) no-repeat left top;
+	content: "";
+	display: block;
+	height: 43px;
+	left: 5px;
+	position: absolute;
+	top: 0;
+	width: 43px;
+}
+.quemsomos-chamada-ilus-dir:after {
+	background: url(../img/home-quemsomos-ilustra-b.png) no-repeat left top;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 69px;
+	position: absolute;
+	right: 0;
+	width: 52px;
+}
+.quemsomos-chamada-link {
+	color: #c49703;
+	display: block;
+	font-family: 'fishfingersregular';
+	font-size: 3.5rem;
+	margin: 0 auto;
+	margin-top: -40px;
+	max-width: 420px;
+	position: relative;
+	text-align: right;
+	text-transform: uppercase;
+	width: 100%;
+	z-index: 12;
+}
+.quemsomos-chamada-link:hover {
+	text-decoration: none;
+}
+.quemsomos-servicos-container {
+	display: block;
+	width: 100%;
+}
+.quemsomos-servicos-lista {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	max-width: 208px;
+	padding: 0;
+	padding-top: 17px;
+	position: relative;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	-webkit-padding-start: 0;
+	text-align: center;
+	width: 100%;
+	z-index: 2;
+}
+.quemsomos-servicos-lista li {
+	background: #fcce00;
+	border-radius: 18px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	color: #e50505;
+	font-family: 'nexa_boldregular';
+	font-size: 1.5rem;
+	padding: 6px 4px;
+}
+.quemsomos-servicos-lista li:nth-child(2) {
+	margin: 12px 0;
+}
+.quemsomos-servicos-fotos {
+	display: inline-block;
+	float: right;
+	margin-bottom: 17.5px;
+	max-width: 824px;
+	position: relative;
+	width: 100%;
+}
+.quemsomos-servicos-fotos-nav-esq, .quemsomos-servicos-fotos-nav-dir {
+	background: #007dcc;
+	border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	height: 36px;
+	position: absolute;
+	top: 28%;
+	width: 36px;
+}
+.quemsomos-servicos-fotos-nav-esq {
+	left: -42px;
+}
+.quemsomos-servicos-fotos-nav-dir {
+	right: -37px;
+}
+.quemsomos-servicos-fotos-nav-esq:before {
+	border-bottom: 9px solid transparent; 
+	border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-right: 9px solid #FFFFFF;
+	border-top: 9px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	margin: 9px auto;
+	margin-left: 12px;
+	vertical-align: middle;
+	width: 0; 
+}
+.quemsomos-servicos-fotos-nav-dir:before {
+	border-bottom: 9px solid transparent; 
+	border-left: 9px solid #FFFFFF;
+	border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-top: 9px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	margin: 9px auto;
+	margin-right: 12px;
+	vertical-align: middle;
+	width: 0; 
+}
+.quemsomos-servicos-foto {
+	border: solid 6px #ffdf00;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	display: inline-block;
+	margin: 0 5px 25px 5px;
+}
+.quemsomos-servicos-foto:hover {
+	border: solid 6px #ee0000;
+}
+.quemsomos-servicos-fotos-link {
+	color: #c49703;
+	display: block;
+	float: right;
+	font-family: 'fishfingersregular';
+	font-size: 2.3rem;
+	font-weight: bold;
+	margin-bottom: 17.5px;
+	margin-right: 3%;
+	text-shadow: 0.5px 0.866px 0.99px rgba(0, 0, 0, 0.051);
+	text-transform: uppercase;
+}
+.quemsomos-servicos-fotos-link:hover {
+	text-decoration: none;
+}
+/* fique por dentro */
+.fiquepordentro-container-geral {
+	background: #00567f;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+.fiquepordentro-container {
+	background: url(../img/home-fiquepordentro-fundo.svg) no-repeat center -1px;
+	background-size: contain;
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+	padding: 0 2%;
+	padding-top: 102px;
+	width: 100%;
+}
+.fiquepordentro-cabecalho {
+	background: url(../img/home-fiquepordentro-linha.png) no-repeat 41% 33px;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	max-width: 1070px;
+	width: 100%;
+}
+.fiquepordentro-titulo {
+	color: #ffffff;
+	display: inline-block;
+	float: left;
+	font-family: 'fishfingersregular';
+	font-size: 4.3rem;
+	text-transform: uppercase;
+}
+.fiquepordentro-titulo span {
+	display: block;
+	font-size: 5.5rem;
+	line-height: 4rem;
+}
+.fiquepordentro-link {
+	display: inline-block;
+	float: right;
+	margin-top: 28px;
+	margin-right: 3%;
+	max-width: 149px;
+	position: relative;
+	width: 100%;
+}
+.fiquepordentro-chamadas {
+	display: block;
+	float: left;
+	width: 100%;
+}
+.fiquepordentro {
+	display: block;
+	float: left;
+	font-family: 'nexa_lightregular';
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	margin: 15px 1%;
+	position: relative;
+	width: 48%;
+	z-index: 9;
+}
+.fiquepordentro a {
+	color: #ffffff;
+}
+.fiquepordentro-foto, .fiquepordentro-foto img {
+	border: solid 2px #ffffff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	float: left;
+	height: 159px;
+	margin-right: 19px;
+	position: relative;
+	width: 266px;
+	z-index: 12;
+}
+.fiquepordentro-foto:after {
+	background: #004b6e;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	content: "";
+	display: block;
+	height: 159px;
+	position: absolute;
+	right: -12px;
+	top: 11px;
+	width: 266px;
+	z-index: 9;
+}
+.fiquepordentro-foto:hover {
+	border: solid 2px #e5c500;
+}
+.fiquepordentro-chamada-titulo {
+	display: block;
+	font-family: 'nexa_boldregular';
+	font-size: 2.2rem;
+	margin-bottom: 5px;
+}
+.fiquepordentro a:hover {
+	color: #e5c500;
+	text-decoration: none !important;
+}
+@media screen and (max-width: 1212px) and (min-width: 768px) {
+.quemsomos-servicos-fotos {
+	margin-right: 2%;
+}
+}
+@media screen and (max-width: 1159px) and (min-width: 768px) {
+.quemsomos-chamada-ilustracao {
+	display: none;
+}
+.quemsomos-chamada {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+.quemsomos-chamada-container {
+	margin-bottom: 0;
+}
+.quemsomos-chamada-link {
+	text-align: center;
+}
+.quemsomos-servicos-lista {
+	margin-bottom: 15px;
+	max-width: 1149px;
+	width: 100%;
+}
+.quemsomos-servicos-lista li {
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.quemsomos-servicos-fotos {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	max-width: 822px;
+	text-align: center;
+}
+.quemsomos-servicos-fotos-nav-esq, .quemsomos-servicos-fotos-nav-dir {
+	top: 55%;
+}
+.quemsomos-servicos-fotos-link {
+	display: block;
+}
+.fiquepordentro-cabecalho {
+	background-size: 60%;
+}
+}
+@media screen and (max-width: 1099px) and (min-width: 768px) {
+.fiquepordentro-chamadas {
+	text-align: center;
+}
+.fiquepordentro {
+	display: inline-block;
+	float: none;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: justify;
+	vertical-align: text-top;
+	width: 38%;
+}
+.fiquepordentro-foto, .fiquepordentro-foto img {
+	display: block;
+	float: none;
+	margin-bottom: 25px;
+}
+}
+@media screen and (max-width: 929px) and (min-width: 768px) {
+.quemsomos-servicos-fotos {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	max-width: 276px;
+}
+.quemsomos-servicos-fotos-nav-esq, .quemsomos-servicos-fotos-nav-dir {
+	top: 53%;
+}
+.quemsomos-servicos-fotos-link {
+	display: block;
+	float: none;
+	max-width: 757px;
+	text-align: center;
+}
+}
+@media screen and (max-width: 889px) and (min-width: 768px) {
+.quemsomos-chamada {
+	background-size: cover;
+	font-size: 2.6rem;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.quemsomos-chamada-ilus-esq:after {
+	left: 0;
+	right: auto;
+}
+}
+@media screen and (max-width: 767px) {
+.quemsomos-chamada-container {
+	margin-bottom: 0;
+	padding-top: 15px;
+}
+.quemsomos-chamada {
+	background-size: cover;
+	font-size: 2rem;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.quemsomos-chamada-ilustracao {
+	display: none;
+}
+.quemsomos-chamada-ilus-esq:after {
+	left: 0;
+	right: auto;
+}
+.quemsomos-chamada-link {
+	margin-top: 0;
+	max-width: 757px;
+	text-align: center;
+	width: 100%;
+}
+.quemsomos-servicos-lista {
+	margin-bottom: 15px;
+	max-width: 757px;
+	width: 100%;
+}
+.quemsomos-servicos-lista li {
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.quemsomos-servicos-fotos {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	max-width: 276px;
+}
+.quemsomos-servicos-fotos-nav-esq, .quemsomos-servicos-fotos-nav-dir {
+	top: 53%;
+}
+.quemsomos-servicos-fotos-link {
+	display: block;
+	float: none;
+	max-width: 757px;
+	text-align: center;
+}
+.fiquepordentro-container {
+	padding-top: 39px;
+}
+.fiquepordentro-cabecalho {
+	background-size: 60%;
+}
+.fiquepordentro-chamadas {
+	text-align: center;
+}
+.fiquepordentro {
+	display: inline-block;
+	float: none;
+	font-size: 1.2rem;
+	line-height: 2.2rem;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: justify;
+	vertical-align: text-top;
+	width: 38%;
+}
+.fiquepordentro-foto, .fiquepordentro-foto img {
+	display: block;
+	float: none;
+	margin-bottom: 25px;
+}
+.fiquepordentro-chamada-titulo {
+	font-size: 1.5rem;
+	margin-bottom: 5px;
+}
+}
+@media screen and (max-width: 714px) {
+.fiquepordentro-cabecalho {
+	margin-bottom: 0;
+}
+.fiquepordentro {
+	display: block;
+	margin: 15px 2%;
+	max-width: 704px;
+	min-height: 190px;
+	width: 95%;
+}
+.fiquepordentro-foto, .fiquepordentro-foto img {
+	display: inline-block;
+	float: left;
+	margin-bottom: 5px;
+}
+}
+@media screen and (max-width: 580px) {
+.quemsomos-chamada-ilus-esq:before, .quemsomos-chamada-ilus-esq:after, .quemsomos-chamada-ilus-dir:before, .quemsomos-chamada-ilus-dir:after {
+	background-size: contain;
+	height: 35px;
+	width: 35px;
+}
+}
+@media screen and (max-width: 529px) {
+.fiquepordentro-chamadas div:first-child {
+	margin-bottom: 35px;
+}
+.fiquepordentro {
+	border: solid 1px #269AD0;
+	padding: 12px;
+}
+.fiquepordentro-foto, .fiquepordentro-foto img {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+}
+@media screen and (max-width: 366px) {
+.quemsomos-servicos-fotos-nav-esq, .quemsomos-servicos-fotos-nav-dir {
+	display: none;
+	visibility: hidden;
+}
+}
